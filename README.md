@@ -1,2 +1,6 @@
 # AlgebraLinear_TrabalhoFinal
-Algebra Linear Trabalho Final
+
+INTEGRANTES:
+Gabrielly Cristine Araujo Rodrigues
+Giulia Rafaela Correa Silva
+Maria Eduarda S. Calixto
