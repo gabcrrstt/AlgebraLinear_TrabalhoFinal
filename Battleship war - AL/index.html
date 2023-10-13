@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS battleship</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Young+Serif&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <h1 id="titulo">Batalha Naval</h1>
+
+    <div id="main-container">
+
+        <p id="game-info">VEZ: <span id="turn-display"></span></p>
+        <p id="game-info">INFORMAÇAO: <span id="info"></span></p>
+
+    <div id="gamesboard-container"></div>
+
+    <div class="option-container">
+        <div id="0" class="destroyer-preview destroyer" draggable="true"></div>
+        <div id="1" class="submarine-preview submarine" draggable="true"></div>
+        <div id="2" class="cruiser-preview cruiser" draggable="true"></div>
+        <div id="3" class="battleship-preview battleship" draggable="true"></div>
+        <div id="4" class="carrier-preview carrier" draggable="true"></div>
+    </div>
+
+    <button id="flip-button">VIRAR</button>
+    <button id="start-button">COMEÇAR</button>
+
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

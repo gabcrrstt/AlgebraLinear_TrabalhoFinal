@@ -1,0 +1,123 @@
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFB495;
+
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Young Serif', serif;
+  }
+
+#gamesboard-container {
+    width: 500px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.game-board {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 20px;
+    height: 20px;
+    border: solid 1px white;
+    box-sizing: border-box;
+}
+/*    border: solid 1px black;  box-sizing: border-box; -- to show the divs --*/
+
+.option-container {
+    width: 500px;
+    height: 60px;
+    margin: 30px 0;
+    background-color: #EBEF95;
+    display: flex;
+    align-items: center;
+}
+
+.destroyer {
+    background-color: #9A3B3B;
+}
+
+.submarine {
+    background-color: #9A3B3B;
+}
+
+.cruiser {
+    background-color: #9A3B3B;
+}
+
+.battleship {
+    background-color: #9A3B3B;
+}
+
+.carrier {
+    background-color: #9A3B3B;
+}
+
+/*========================================================== */
+
+.destroyer-preview {
+    width: 20px;
+    height: 10px;
+    margin: 3px;
+}
+
+.submarine-preview {
+    width: 30px;
+    height: 10px;
+    margin: 3px;
+}
+
+.cruiser-preview {
+    width: 30px;
+    height: 10px;
+    margin: 3px; 
+}
+
+.battleship-preview {
+    width: 40px;
+    height: 10px;
+    margin: 3px; 
+}
+
+.carrier-preview {
+    width: 50px;
+    height: 10px;
+    margin: 3px;  
+}
+
+.hover {
+    background-color: gray;
+}
+
+#computer .destroyer,
+#computer .submarine,
+#computer .cruiser,
+#computer .battleship,
+#computer .carrier {
+    background-color: #A2E8E0;
+}
+
+
+.boom {
+    background-color: red !important;
+}
+
+.empty {
+    background-color: gray !important;
+}
