@@ -2,5 +2,5 @@
 
 INTEGRANTES:
 Gabrielly Cristine Araujo Rodrigues,
-Giulia Rafaela Correa Silva, e
+Giulia Rafaela Correa Silva e
 Maria Eduarda S. Calixto
